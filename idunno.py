@@ -1,0 +1,27 @@
+import turtle 
+
+turtle.bgcolor("black")
+turtle.pencolor("white")
+
+print("turtle imported")
+turtle.circle(60)
+print("circle done")
+turtle.left(90)
+print("turn done")
+turtle.forward(120)
+print("fd done!")
+turtle.right(180)
+turtle.forward(250)
+turtle.left(90)
+turtle.circle(200)
+turtle.left(50)
+turtle.forward(300)
+turtle.left(90)
+turtle.forward(270)
+turtle.left(90)
+turtle.forward(280)
+turtle.left(90)
+turtle.forward(280)
+turtle.write("thanks for playing" , align="center" , font=("sans" , 40 , "bold"))
+
+print("thanks for playing")
